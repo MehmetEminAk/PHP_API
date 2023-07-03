@@ -1,0 +1,17 @@
+{
+    "name": "mak44/phozull-api",
+    "autoload": { 
+        "psr-4": {
+            "API\\" : "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mehmet Emin Ak",
+            "email": "mak44162@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}

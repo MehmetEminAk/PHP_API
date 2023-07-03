@@ -1,0 +1,7 @@
+RewriteEngine On
+
+
+RewriteRule ^users/([0-9]+)$ users.php?id=$1 
+RewriteRule ^users$ users.php [L]
+
+RewriteRule ^login login.php
